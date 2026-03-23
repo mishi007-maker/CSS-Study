@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .Navbar {
+            background-color: deepskyblue;
+            height: 600px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px 300px 50px 100px;
+            display: flexbox;
+    
+
+        }
+
+        .Lists {
+            list-style: none;
+            display: flex;
+            margin: 20 0 0 10px;
+            padding: 20px;
+
+        }
+
+        .Navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 0 20px 0 20px;
+            display: flex;
+
+        }
+
+        .dot {
+            list-style-type: disc;
+            margin-left: 600px;
+
+        }
+
+        .paragraph {
+            font-family: sans-serif;
+            padding-left: 60px;
+            color: white;
+            font-weight: 600;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+    
+        
+;
+
+        }
+
+        .paragraph .next {
+            font-size: small;
+            display: flex;
+            margin-top: 30px;
+            font-weight: 10;
+
+
+        }
+
+        .image {
+            padding: 100px 0px 0px 400px;
+        }
+        .next::before{
+            content: "";
+            margin-right: 12px;
+            background-color: white;
+            height: 3px;
+            flex: 0 0 50px;
+            margin-top: 5px;
+            
+        }
+        .button{
+            background-color:white;
+            color:skyblue;
+            border: 2px solid skyblue;
+            padding: 12px 50px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin:0 0 0 120px;
+        ;
+            
+
+        }
+        .button:hover{
+            background-color: deepskyblue;
+            color: white;
+        }
+    
+    
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="Navbar">
+        <ul class="Lists">
+            <i class="fa-solid fa-bars" style="color: rgb(247, 249, 252);"></i>
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="">
+                <li>Services</li>
+            </a>
+            <a href="">
+                <li>About</li>
+            </a>
+            <ul class="Solo">
+                <a href="">
+                    <li class="dot">Contact Us</li>
+                </a>
+            </ul>
+        </ul>
+        <div class="paragraph">
+
+            <p>Simple <br>Web Design <span class="next">Lorem ipsum dolor sit amet.<br>Minus eligendi,
+                    rerum quia sapiente? <br>et
+                    sequi culpa ea autem in. </span></p>
+            <img class="image" src="mine.avif" alt="#" height="200px" width="300px">
+        </div>
+        <button class="button">Portfolio</button>
+
+
+    </div>
+</body>
+
+</html>
