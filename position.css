@@ -1,0 +1,58 @@
+.relative {
+    background-color: blueviolet;
+    height: 400px;
+    right: 200px;
+    top: 0px;
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 80px;
+    background-color: red;
+
+
+}
+
+.relative1 {
+    background-color: brown;
+    position: relative;
+    height: 600px;
+
+
+}
+.absolute1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.absolute2{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.absolute3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.absolute4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.absolute5{
+    position: absolute;
+    top: 200px;
+    right: 650px;
+
+}
+h1{
+    position: fixed;
+    background-color: aqua;
+}
